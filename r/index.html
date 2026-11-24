@@ -61,7 +61,7 @@
   li.me { background: rgba(243,215,154,0.12); border-radius: 6px; }
   .none { color: var(--soft); font-size: 14px; padding: 4px 2px; }
   .foot { margin-top: 22px; text-align: center; color: var(--soft); font-size: 12px; line-height: 1.6; }
-  @media (min-width: 640px) { .cols { grid-template-columns: 1fr 1fr 1fr; } .cols.two { grid-template-columns: 1fr 1fr; } main { max-width: 860px; } .card { max-width: 520px; margin: 0 auto; } }
+  @media (min-width: 640px) { .cols { grid-template-columns: 1fr 1fr 1fr 1fr; } .cols.two { grid-template-columns: 1fr 1fr 1fr; } main { max-width: 980px; } /* 【混ぜる印・wr-lv】Lv の列で 1 つ増えた */ .card { max-width: 520px; margin: 0 auto; } }
 </style>
 </head>
 <body>
@@ -73,7 +73,7 @@
     <form id="f" autocomplete="off">
       <p class="ready-note" data-t="ready"></p>
       <label for="code" data-t="codeLabel"></label>
-      <input id="code" name="code" inputmode="text" autocapitalize="characters" autocorrect="off" spellcheck="false" maxlength="16" placeholder="XXXX-XXXX-XXXX">
+      <input id="code" name="code" inputmode="text" autocapitalize="characters" autocorrect="off" spellcheck="false" maxlength="17" placeholder="XXXX-XXXX-XXXX-XX"><!-- 【混ぜる印・wr-lv】14 字（Lv つき）。前の 12 字も通る -->
       <p class="hint" data-t="codeHint"></p>
       <label for="name" data-t="nameLabel"></label>
       <input id="name" name="name" autocapitalize="off" autocorrect="off" spellcheck="false" maxlength="32">
@@ -87,6 +87,7 @@
     <div class="col"><h3 data-t="colN"></h3><ol id="lN"></ol></div>
     <div class="col"><h3 data-t="colH"></h3><ol id="lH"></ol></div>
     <div class="col" id="cB" hidden><h3 data-t="colB"></h3><ol id="lB"></ol></div>
+    <div class="col"><h3 data-t="colL"></h3><ol id="lL"></ol></div><!-- 【混ぜる印・wr-lv】 -->
   </div>
   <p class="foot" data-t="foot"></p>
 </main>
@@ -94,33 +95,33 @@
 const API = /^(localhost|127\.0\.0\.1)$/.test(location.hostname) ? "http://127.0.0.1:8791" : "https://celecolo-rank.pages.dev"; // 手元の確かめは wrangler pages dev --port 8791
 const T = {
   ja: { name: "日本語", title: "世界ランキング", sub: "セレマジ（Celestine Magic）の記録を送るページ",
-    ready: "コードと名前は入っています。下のボタンを押すだけで送れます。", codeLabel: "ワールドに出たコード", codeHint: "ワールドの「世界ランキング」の板で「記録を送る」を押すと、12 文字のコードが出ます。ハイフンは無くても大丈夫です。",
+    ready: "コードと名前は入っています。下のボタンを押すだけで送れます。", codeLabel: "ワールドに出たコード", codeHint: "ワールドの「世界ランキング」の板で「記録を送る」を押すと、14 文字のコードが出ます（前に出た 12 文字のコードもそのまま使えます）。ハイフンは無くても大丈夫です。",
     nameLabel: "あなたの名前（VRChat の表示名）", nameHint: "板のコードの下に出ている名前と同じに打ってください（大文字・小文字は区別しません）。",
-    send: "記録を送る", sending: "送っています…", now: "いまの世界ランキング", colN: "耐久Wave", colH: "耐久Wave（Hard）", colB: "ボスバトル",
+    send: "記録を送る", sending: "送っています…", now: "いまの世界ランキング", colN: "耐久Wave", colH: "耐久Wave（Hard）", colB: "ボスバトル", colL: "Lv",
     none: "まだ記録がありません", foot: "ワールドの板には 10〜20 分ほどで出ます（入り直すと読み直します）。\n同じ名前は、いちばん良い記録だけが残ります。",
     ok: "送れました！", same: "受け取りました（今までの記録のほうが上なので、順位は変わりません）。", place: (k, p) => k + " " + p + " 位",
-    err: { mismatch: "コードか名前が合いません。板に出ている名前とコードを、もう一度見くらべてください。", code: "コードは 12 文字です（例: ABCD-EFGH-JKMN）。", name: "名前を入れてください。", busy: "少し時間をおいてから、もう一度送ってください。", empty: "まだ送れる記録がありません。", net: "つながりませんでした。少しおいてから、もう一度送ってください。", other: "うまく送れませんでした。もう一度ためしてください。" } },
+    err: { mismatch: "コードか名前が合いません。板に出ている名前とコードを、もう一度見くらべてください。", code: "コードは 14 文字です（例: ABCD-EFGH-JKMN-PQ）。", name: "名前を入れてください。", busy: "少し時間をおいてから、もう一度送ってください。", empty: "まだ送れる記録がありません。", net: "つながりませんでした。少しおいてから、もう一度送ってください。", other: "うまく送れませんでした。もう一度ためしてください。" } },
   ko: { name: "한국어", title: "월드 랭킹", sub: "셀레마지(Celestine Magic) 기록을 보내는 페이지",
-    ready: "코드와 이름이 이미 들어 있어요. 아래 버튼만 누르면 보내져요.", codeLabel: "월드에 나온 코드", codeHint: "월드의 「월드 랭킹」 보드에서 「기록 보내기」를 누르면 12자 코드가 나옵니다. 하이픈은 없어도 괜찮아요.",
+    ready: "코드와 이름이 이미 들어 있어요. 아래 버튼만 누르면 보내져요.", codeLabel: "월드에 나온 코드", codeHint: "월드의 「월드 랭킹」 보드에서 「기록 보내기」를 누르면 14자 코드가 나옵니다 (전에 나온 12자 코드도 그대로 쓸 수 있어요). 하이픈은 없어도 괜찮아요.",
     nameLabel: "이름 (VRChat 표시 이름)", nameHint: "보드의 코드 아래에 나온 이름과 똑같이 입력해 주세요 (대소문자는 구분하지 않아요).",
-    send: "기록 보내기", sending: "보내는 중…", now: "현재 월드 랭킹", colN: "내구 Wave", colH: "내구 Wave (Hard)", colB: "보스 배틀",
+    send: "기록 보내기", sending: "보내는 중…", now: "현재 월드 랭킹", colN: "내구 Wave", colH: "내구 Wave (Hard)", colB: "보스 배틀", colL: "Lv",
     none: "아직 기록이 없습니다", foot: "월드 보드에는 10~20분 정도 뒤에 반영돼요 (다시 들어오면 새로 읽어요).\n같은 이름은 가장 좋은 기록만 남아요.",
     ok: "보냈어요!", same: "받았어요 (이전 기록이 더 높아서 순위는 그대로예요).", place: (k, p) => k + " " + p + "위",
-    err: { mismatch: "코드나 이름이 맞지 않아요. 보드에 나온 이름과 코드를 다시 확인해 주세요.", code: "코드는 12자예요 (예: ABCD-EFGH-JKMN).", name: "이름을 입력해 주세요.", busy: "잠시 후 다시 보내 주세요.", empty: "아직 보낼 기록이 없어요.", net: "연결되지 않았어요. 잠시 후 다시 보내 주세요.", other: "보내지 못했어요. 다시 시도해 주세요." } },
+    err: { mismatch: "코드나 이름이 맞지 않아요. 보드에 나온 이름과 코드를 다시 확인해 주세요.", code: "코드는 14자예요 (예: ABCD-EFGH-JKMN-PQ).", name: "이름을 입력해 주세요.", busy: "잠시 후 다시 보내 주세요.", empty: "아직 보낼 기록이 없어요.", net: "연결되지 않았어요. 잠시 후 다시 보내 주세요.", other: "보내지 못했어요. 다시 시도해 주세요." } },
   en: { name: "English", title: "World Ranking", sub: "Send your Celestine Magic records",
-    ready: "Your code and name are already filled in. Just press the button below.", codeLabel: "Code from the world", codeHint: "Press \"Send records\" on the World Ranking board in the world to get a 12-character code. Hyphens are optional.",
+    ready: "Your code and name are already filled in. Just press the button below.", codeLabel: "Code from the world", codeHint: "Press \"Send records\" on the World Ranking board in the world to get a 14-character code (older 12-character codes still work). Hyphens are optional.",
     nameLabel: "Your name (VRChat display name)", nameHint: "Type it exactly as shown under the code on the board (upper/lower case doesn't matter).",
-    send: "Send records", sending: "Sending…", now: "Current world ranking", colN: "Endless Wave", colH: "Endless Wave (Hard)", colB: "Boss Battle",
+    send: "Send records", sending: "Sending…", now: "Current world ranking", colN: "Endless Wave", colH: "Endless Wave (Hard)", colB: "Boss Battle", colL: "Lv",
     none: "No records yet", foot: "It shows on the board in the world in about 10–20 minutes (rejoin to reload).\nOnly your best record per name is kept.",
     ok: "Sent!", same: "Received (your earlier records are higher, so your place stays the same).", place: (k, p) => k + " #" + p,
-    err: { mismatch: "The code and name don't match. Please check the name and code shown on the board again.", code: "The code has 12 characters (e.g. ABCD-EFGH-JKMN).", name: "Please enter your name.", busy: "Please wait a moment and send again.", empty: "There are no records to send yet.", net: "Couldn't connect. Please wait a moment and try again.", other: "Couldn't send. Please try again." } },
+    err: { mismatch: "The code and name don't match. Please check the name and code shown on the board again.", code: "The code has 14 characters (e.g. ABCD-EFGH-JKMN-PQ).", name: "Please enter your name.", busy: "Please wait a moment and send again.", empty: "There are no records to send yet.", net: "Couldn't connect. Please wait a moment and try again.", other: "Couldn't send. Please try again." } },
   zh: { name: "繁體中文", title: "世界排行榜", sub: "傳送 Celestine Magic 紀錄的頁面",
-    ready: "代碼和名字已經填好了。只要按下面的按鈕就能傳送。", codeLabel: "世界裡顯示的代碼", codeHint: "在世界裡的「世界排行榜」看板按下「傳送紀錄」，就會出現 12 個字的代碼。可以不輸入連字號。",
+    ready: "代碼和名字已經填好了。只要按下面的按鈕就能傳送。", codeLabel: "世界裡顯示的代碼", codeHint: "在世界裡的「世界排行榜」看板按下「傳送紀錄」，就會出現 14 個字的代碼（之前的 12 個字代碼也能照常使用）。可以不輸入連字號。",
     nameLabel: "你的名字（VRChat 顯示名稱）", nameHint: "請照看板上代碼下方顯示的名字輸入（不分大小寫）。",
-    send: "傳送紀錄", sending: "傳送中…", now: "目前的世界排行榜", colN: "耐久 Wave", colH: "耐久 Wave（Hard）", colB: "Boss 戰",
+    send: "傳送紀錄", sending: "傳送中…", now: "目前的世界排行榜", colN: "耐久 Wave", colH: "耐久 Wave（Hard）", colB: "Boss 戰", colL: "Lv",
     none: "尚無紀錄", foot: "大約 10～20 分鐘後會出現在世界裡的看板上（重新進入就會重新讀取）。\n同一個名字只保留最好的紀錄。",
     ok: "傳送成功！", same: "已收到（之前的紀錄比較高，所以名次不變）。", place: (k, p) => k + " 第 " + p + " 名",
-    err: { mismatch: "代碼和名字對不上。請再對照一次看板上的名字和代碼。", code: "代碼是 12 個字（例：ABCD-EFGH-JKMN）。", name: "請輸入名字。", busy: "請稍等一下再傳送。", empty: "目前還沒有可以傳送的紀錄。", net: "無法連線。請稍等一下再試。", other: "傳送失敗。請再試一次。" } },
+    err: { mismatch: "代碼和名字對不上。請再對照一次看板上的名字和代碼。", code: "代碼是 14 個字（例：ABCD-EFGH-JKMN-PQ）。", name: "請輸入名字。", busy: "請稍等一下再傳送。", empty: "目前還沒有可以傳送的紀錄。", net: "無法連線。請稍等一下再試。", other: "傳送失敗。請再試一次。" } },
 };
 const ORDER = ["ja", "ko", "en", "zh"];
 function pick() {
@@ -141,40 +142,41 @@ function list() {
   const t = T[lang];
   const boss = !!(last && last.boss); // ボスバトルを閉じている間は列を出さない（受け取り口の BOSS_OPEN）
   document.getElementById("cB").hidden = !boss; document.getElementById("cols").classList.toggle("two", !boss);
-  for (const [k, id] of [["n", "lN"], ["h", "lH"], ["b", "lB"]]) {
+  for (const [k, id] of [["n", "lN"], ["h", "lH"], ["b", "lB"], ["l", "lL"]]) { // 【混ぜる印・wr-lv】l
     const ol = document.getElementById(id); ol.innerHTML = "";
     const rows = last && last.top ? last.top[k] : [];
     if (!rows || !rows.length) { const d = document.createElement("li"); d.className = "none"; d.textContent = last ? t.none : "…"; ol.appendChild(d); continue; }
     rows.forEach((r, i) => {
       const li = document.createElement("li"); if (mine && key(r.name) === mine) li.className = "me";
       const a = document.createElement("span"); a.className = "nm"; a.textContent = (i + 1) + ". " + r.name;
-      const b = document.createElement("span"); b.className = "v"; b.textContent = (k === "b" ? "Lv " : "Wave ") + r.v;
+      const b = document.createElement("span"); b.className = "v"; b.textContent = (k === "b" || k === "l" ? "Lv " : "Wave ") + r.v; // 【混ぜる印・wr-lv】
       li.append(a, b); ol.appendChild(li);
     });
   }
 }
 function key(s) { return String(s).replace(/[\s　]/g, "").replace(/[A-Z]/g, (c) => c.toLowerCase()); }
 async function load() {
-  try { const r = await fetch(API + "/api/list.json", { cache: "no-store" }); last = await r.json(); } catch (e) { last = { top: { n: [], h: [], b: [] } }; }
+  try { const r = await fetch(API + "/api/list.json", { cache: "no-store" }); last = await r.json(); } catch (e) { last = { top: { n: [], h: [], b: [], l: [] } }; }
   list();
 }
 const codeIn = document.getElementById("code");
 codeIn.addEventListener("input", () => {
-  const raw = codeIn.value.toUpperCase().replace(/[^0-9A-Z]/g, "").slice(0, 12);
+  const raw = codeIn.value.toUpperCase().replace(/[^0-9A-Z]/g, "").slice(0, 14); // 【混ぜる印・wr-lv】14 字まで
   const f = raw.replace(/(.{4})(?=.)/g, "$1-");
   if (f !== codeIn.value) codeIn.value = f;
 });
 let qName = "";
 try { const q = new URLSearchParams(location.search); const c = q.get("c"); qName = (q.get("n") || "").trim(); if (c) { codeIn.value = c; codeIn.dispatchEvent(new Event("input")); } } catch (e) {}
 try { const n = qName || localStorage.getItem("wr_name"); if (n) document.getElementById("name").value = n; } catch (e) {}
+const okLen = (c) => { const k = c.replace(/[^0-9A-Za-z]/g, "").length; return k === 12 || k === 14; }; // 【混ぜる印・wr-lv】14 字（Lv つき）と前の 12 字
 // ワールドの QR（?c=コード&n=名前）で開いた時は、押すだけで送れる形に（欄は残すので打ち直しもできる）
-if (qName && codeIn.value.replace(/[^0-9A-Za-z]/g, "").length === 12) document.getElementById("f").classList.add("ready");
+if (qName && okLen(codeIn.value)) document.getElementById("f").classList.add("ready");
 document.getElementById("f").addEventListener("submit", async (ev) => {
   ev.preventDefault();
   const t = T[lang], msg = document.getElementById("msg"), go = document.getElementById("go");
   const name = document.getElementById("name").value.trim(), code = codeIn.value;
   msg.className = ""; msg.textContent = "";
-  if (code.replace(/[^0-9A-Za-z]/g, "").length !== 12) { msg.className = "ng"; msg.textContent = t.err.code; return; }
+  if (!okLen(code)) { msg.className = "ng"; msg.textContent = t.err.code; return; }
   if (!name) { msg.className = "ng"; msg.textContent = t.err.name; return; }
   go.disabled = true; go.textContent = t.sending;
   try {
@@ -187,6 +189,7 @@ document.getElementById("f").addEventListener("submit", async (ev) => {
       if (j.place.n) parts.push(t.place(t.colN, j.place.n));
       if (j.place.h) parts.push(t.place(t.colH, j.place.h));
       if (j.place.b && last && last.boss) parts.push(t.place(t.colB, j.place.b));
+      if (j.place.l) parts.push(t.place(t.colL, j.place.l)); // 【混ぜる印・wr-lv】
       msg.className = "ok"; msg.textContent = (j.up ? t.ok : t.same) + (parts.length ? "\n" + parts.join(" / ") : "");
       await load();
     } else { msg.className = "ng"; msg.textContent = t.err[j.err] || t.err.other; }
