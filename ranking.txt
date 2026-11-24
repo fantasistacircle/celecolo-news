@@ -1,4 +1,2 @@
 celecolo-rank 1
-t 1795542843
-N	1	zzTestLv
-L	7	zzTestLv
+t 0
