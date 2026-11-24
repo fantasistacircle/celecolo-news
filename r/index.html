@@ -41,6 +41,14 @@
     background: linear-gradient(180deg, var(--gold), var(--gold2)); color: #2a1840; margin-top: 4px;
   }
   .go:disabled { opacity: .55; cursor: default; }
+  /* ワールドの QR から ?c=&n= で開いた時: 欄は小さく確認用、ボタンだけ目立たせる */
+  .ready-note { display: none; font-size: 15px; line-height: 1.6; color: var(--ok); margin: 0 2px 12px; }
+  #f.ready .ready-note { display: block; }
+  #f.ready .hint { display: none; }
+  #f.ready label { font-size: 12px; margin: 2px 0 3px; }
+  #f.ready input { font-size: 15px; padding: 7px 10px; margin-bottom: 8px; opacity: .85; }
+  #f.ready #code { font-size: 16px; }
+  #f.ready .go { font-size: 22px; padding: 20px; margin-top: 10px; }
   #msg { margin-top: 14px; font-size: 15px; line-height: 1.6; min-height: 1em; white-space: pre-line; }
   #msg.ok { color: var(--ok); } #msg.ng { color: var(--ng); }
   h2 { font-size: 17px; color: var(--gold); margin: 26px 0 8px; text-align: center; }
@@ -63,6 +71,7 @@
   <p class="sub" data-t="sub"></p>
   <div class="card">
     <form id="f" autocomplete="off">
+      <p class="ready-note" data-t="ready"></p>
       <label for="code" data-t="codeLabel"></label>
       <input id="code" name="code" inputmode="text" autocapitalize="characters" autocorrect="off" spellcheck="false" maxlength="16" placeholder="XXXX-XXXX-XXXX">
       <p class="hint" data-t="codeHint"></p>
@@ -85,28 +94,28 @@
 const API = /^(localhost|127\.0\.0\.1)$/.test(location.hostname) ? "http://127.0.0.1:8791" : "https://celecolo-rank.pages.dev"; // 手元の確かめは wrangler pages dev --port 8791
 const T = {
   ja: { name: "日本語", title: "世界ランキング", sub: "セレマジ（Celestine Magic）の記録を送るページ",
-    codeLabel: "ワールドに出たコード", codeHint: "ワールドの「世界ランキング」の板で「記録を送る」を押すと、12 文字のコードが出ます。ハイフンは無くても大丈夫です。",
+    ready: "コードと名前は入っています。下のボタンを押すだけで送れます。", codeLabel: "ワールドに出たコード", codeHint: "ワールドの「世界ランキング」の板で「記録を送る」を押すと、12 文字のコードが出ます。ハイフンは無くても大丈夫です。",
     nameLabel: "あなたの名前（VRChat の表示名）", nameHint: "板のコードの下に出ている名前と同じに打ってください（大文字・小文字は区別しません）。",
     send: "記録を送る", sending: "送っています…", now: "いまの世界ランキング", colN: "耐久Wave", colH: "耐久Wave（Hard）", colB: "ボスバトル",
     none: "まだ記録がありません", foot: "ワールドの板には 10〜20 分ほどで出ます（入り直すと読み直します）。\n同じ名前は、いちばん良い記録だけが残ります。",
     ok: "送れました！", same: "受け取りました（今までの記録のほうが上なので、順位は変わりません）。", place: (k, p) => k + " " + p + " 位",
     err: { mismatch: "コードか名前が合いません。板に出ている名前とコードを、もう一度見くらべてください。", code: "コードは 12 文字です（例: ABCD-EFGH-JKMN）。", name: "名前を入れてください。", busy: "少し時間をおいてから、もう一度送ってください。", empty: "まだ送れる記録がありません。", net: "つながりませんでした。少しおいてから、もう一度送ってください。", other: "うまく送れませんでした。もう一度ためしてください。" } },
   ko: { name: "한국어", title: "월드 랭킹", sub: "셀레마지(Celestine Magic) 기록을 보내는 페이지",
-    codeLabel: "월드에 나온 코드", codeHint: "월드의 「월드 랭킹」 보드에서 「기록 보내기」를 누르면 12자 코드가 나옵니다. 하이픈은 없어도 괜찮아요.",
+    ready: "코드와 이름이 이미 들어 있어요. 아래 버튼만 누르면 보내져요.", codeLabel: "월드에 나온 코드", codeHint: "월드의 「월드 랭킹」 보드에서 「기록 보내기」를 누르면 12자 코드가 나옵니다. 하이픈은 없어도 괜찮아요.",
     nameLabel: "이름 (VRChat 표시 이름)", nameHint: "보드의 코드 아래에 나온 이름과 똑같이 입력해 주세요 (대소문자는 구분하지 않아요).",
     send: "기록 보내기", sending: "보내는 중…", now: "현재 월드 랭킹", colN: "내구 Wave", colH: "내구 Wave (Hard)", colB: "보스 배틀",
     none: "아직 기록이 없습니다", foot: "월드 보드에는 10~20분 정도 뒤에 반영돼요 (다시 들어오면 새로 읽어요).\n같은 이름은 가장 좋은 기록만 남아요.",
     ok: "보냈어요!", same: "받았어요 (이전 기록이 더 높아서 순위는 그대로예요).", place: (k, p) => k + " " + p + "위",
     err: { mismatch: "코드나 이름이 맞지 않아요. 보드에 나온 이름과 코드를 다시 확인해 주세요.", code: "코드는 12자예요 (예: ABCD-EFGH-JKMN).", name: "이름을 입력해 주세요.", busy: "잠시 후 다시 보내 주세요.", empty: "아직 보낼 기록이 없어요.", net: "연결되지 않았어요. 잠시 후 다시 보내 주세요.", other: "보내지 못했어요. 다시 시도해 주세요." } },
   en: { name: "English", title: "World Ranking", sub: "Send your Celestine Magic records",
-    codeLabel: "Code from the world", codeHint: "Press \"Send records\" on the World Ranking board in the world to get a 12-character code. Hyphens are optional.",
+    ready: "Your code and name are already filled in. Just press the button below.", codeLabel: "Code from the world", codeHint: "Press \"Send records\" on the World Ranking board in the world to get a 12-character code. Hyphens are optional.",
     nameLabel: "Your name (VRChat display name)", nameHint: "Type it exactly as shown under the code on the board (upper/lower case doesn't matter).",
     send: "Send records", sending: "Sending…", now: "Current world ranking", colN: "Endless Wave", colH: "Endless Wave (Hard)", colB: "Boss Battle",
     none: "No records yet", foot: "It shows on the board in the world in about 10–20 minutes (rejoin to reload).\nOnly your best record per name is kept.",
     ok: "Sent!", same: "Received (your earlier records are higher, so your place stays the same).", place: (k, p) => k + " #" + p,
     err: { mismatch: "The code and name don't match. Please check the name and code shown on the board again.", code: "The code has 12 characters (e.g. ABCD-EFGH-JKMN).", name: "Please enter your name.", busy: "Please wait a moment and send again.", empty: "There are no records to send yet.", net: "Couldn't connect. Please wait a moment and try again.", other: "Couldn't send. Please try again." } },
   zh: { name: "繁體中文", title: "世界排行榜", sub: "傳送 Celestine Magic 紀錄的頁面",
-    codeLabel: "世界裡顯示的代碼", codeHint: "在世界裡的「世界排行榜」看板按下「傳送紀錄」，就會出現 12 個字的代碼。可以不輸入連字號。",
+    ready: "代碼和名字已經填好了。只要按下面的按鈕就能傳送。", codeLabel: "世界裡顯示的代碼", codeHint: "在世界裡的「世界排行榜」看板按下「傳送紀錄」，就會出現 12 個字的代碼。可以不輸入連字號。",
     nameLabel: "你的名字（VRChat 顯示名稱）", nameHint: "請照看板上代碼下方顯示的名字輸入（不分大小寫）。",
     send: "傳送紀錄", sending: "傳送中…", now: "目前的世界排行榜", colN: "耐久 Wave", colH: "耐久 Wave（Hard）", colB: "Boss 戰",
     none: "尚無紀錄", foot: "大約 10～20 分鐘後會出現在世界裡的看板上（重新進入就會重新讀取）。\n同一個名字只保留最好的紀錄。",
@@ -155,8 +164,11 @@ codeIn.addEventListener("input", () => {
   const f = raw.replace(/(.{4})(?=.)/g, "$1-");
   if (f !== codeIn.value) codeIn.value = f;
 });
-try { const q = new URLSearchParams(location.search).get("c"); if (q) { codeIn.value = q; codeIn.dispatchEvent(new Event("input")); } } catch (e) {}
-try { const n = localStorage.getItem("wr_name"); if (n) document.getElementById("name").value = n; } catch (e) {}
+let qName = "";
+try { const q = new URLSearchParams(location.search); const c = q.get("c"); qName = (q.get("n") || "").trim(); if (c) { codeIn.value = c; codeIn.dispatchEvent(new Event("input")); } } catch (e) {}
+try { const n = qName || localStorage.getItem("wr_name"); if (n) document.getElementById("name").value = n; } catch (e) {}
+// ワールドの QR（?c=コード&n=名前）で開いた時は、押すだけで送れる形に（欄は残すので打ち直しもできる）
+if (qName && codeIn.value.replace(/[^0-9A-Za-z]/g, "").length === 12) document.getElementById("f").classList.add("ready");
 document.getElementById("f").addEventListener("submit", async (ev) => {
   ev.preventDefault();
   const t = T[lang], msg = document.getElementById("msg"), go = document.getElementById("go");
