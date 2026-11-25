@@ -1,4 +1,13 @@
 celecolo-rank 1
-t 1795542843
+t 1795614625
+N	77	Okazaki・楽
+N	76	circle___
+N	62	Syun_821
 N	1	zzTestLv
+H	74	Okazaki・楽
+H	74	Syun_821
+H	29	circle___
+L	54	Okazaki・楽
+L	34	circle___
+L	19	Syun_821
 L	7	zzTestLv
