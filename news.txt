@@ -1,3 +1,44 @@
+[en]
+Update: Nov 25, 2026 (night)
+・Endurance Wave (Normal / Hard) has been rebuilt. Enemies use more kinds of attacks as the waves go on, and their warning signs are easier to see
+・Endurance Wave records are counted fresh. Earlier records stay on the board as "Old records (v1)" and "Old records (v2)"
+・New spells in the shop: "Sea the sky", "Goddess" and "Air Dash"
+・Lumina Burst now grows thicker and stronger the longer you keep firing
+・Repeated casting now slows down little by little (drawing the sigil again resets the speed)
+・At full HP, a single hit no longer knocks you down
+・Clover is now a 15-second trump card (for 30 seconds afterwards you are out of breath and your MP does not recover)
+・Flamethrower has been remade
+・Rebalanced Leaf Blade, Gust, Tsunami, Orchestra, Thousand Swords and Time Carve
+・Only Heal and Goddess can revive fallen allies now (Auto Heal no longer does)
+・Fixed: entering Endurance Wave with Clover ON gave no gold or EXP
+・A notice now appears in front of you when you are short on MP
+・The TAB key now brings out your wand
+・Picking up a wand in the shop now shows its name
+■Coming soon
+・Bug fixes and balance adjustments
+・More spells
+・Choose your wand's look (any wand you hold can take the look of a wand you own or one placed in the world)
+[ko]
+2026-11-25 밤 업데이트
+・내구 Wave(노멀・Hard)를 새로 만들었습니다. Wave가 진행될수록 적의 기술이 늘어납니다. 적의 기술 예고도 잘 보이게 했습니다
+・내구 Wave 기록을 새로 집계합니다(이전 기록은 「이전 기록 (v1)」「이전 기록 (v2)」로 보드에 남아 있습니다)
+・새 마법 「Sea the sky」「여신」「에어 대시」를 상점에 추가했습니다
+・루미나 버스트는 계속 쏠수록 굵고 강해집니다
+・연사는 조금씩 느려집니다(문양을 다시 그리면 원래 속도로 돌아옵니다)
+・HP가 가득 찼을 때는 한 번의 공격으로 쓰러지지 않습니다
+・클로버는 15초짜리 비장의 카드가 되었습니다(효과가 끝난 뒤 30초 동안은 숨이 차서 MP가 회복되지 않습니다)
+・화염 방사를 새로 만들었습니다
+・리프 블레이드・돌풍・쓰나미・오케스트라・천검・각공의 강함을 조정했습니다
+・쓰러진 동료를 일으키는 것은 힐과 여신만 가능합니다(오토 힐로는 일어나지 않습니다)
+・클로버를 ON으로 한 채 내구 Wave에 들어가면 돈과 경험치를 받지 못하던 문제를 고쳤습니다
+・MP가 부족할 때 눈앞에 알림이 나옵니다
+・TAB 키로 지팡이가 나옵니다
+・상점의 지팡이를 손에 들면 지팡이 이름이 나옵니다
+■업데이트 예정
+・버그 수정・밸런스 조정 등
+・마법 추가
+・지팡이 외형 선택(어떤 지팡이를 들어도, 가지고 있는 지팡이나 놓여 있는 지팡이의 외형으로 바꿀 수 있습니다)
+[ja]
 2026-11-25 夜の更新
 ・耐久Wave（普通・Hard）を作り直しました。Wave が進むほど、敵の技が増えていきます。敵の技の前ぶれも見やすくしました
 ・耐久Wave の記録を、新しく数え直しました（前の記録は「旧記録（v1）」「旧記録（v2）」として板に残しています）
@@ -10,7 +51,7 @@
 ・リーフブレード・突風・津波・オーケストラ・千剣・刻空の強さを見直しました
 ・倒れた仲間を起こすのは、ヒールと女神だけにしました（オートヒールでは起きません）
 ・クローバーを ON にしたまま耐久Wave に入ると、お金と経験値が入らなかったのを直しました
-・MP が足りない時に、目の前にお知らせが出るようにしました
+・MPが足りない時に、目の前にお知らせが出るようにしました
 ・TAB キーで杖が出るようにしました
 ・店の杖を手に取ると、杖の名前が出るようにしました
 
