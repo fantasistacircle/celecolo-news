@@ -1,5 +1,5 @@
 celecolo-rank 1
-t 1795629087
+t 1795631513
 N	77	Okazaki・楽
 N	77	__zumi
 N	77	Lorzen
@@ -29,4 +29,4 @@ L	34	circle___
 L	32	tazunora
 L	31	白狐の嫁入り
 L	30	komatii
-L	28	aokudrop
+L	30	糖秋11
