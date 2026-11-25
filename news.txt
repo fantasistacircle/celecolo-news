@@ -1,4 +1,10 @@
 [en]
+Update: Nov 25, 2026 (late night)
+・Endurance Wave (Normal): enemy HP now grows the same way as the previous version (v2)
+・Removed the Boss Battle entries from the ranking board and the teleport circle
+・Fusion: you now have 2.5 seconds to fire together
+・The "Goddess" spellbook now costs 10,500 gold
+
 Update: Nov 25, 2026 (night)
 ・Endurance Wave (Normal / Hard) has been rebuilt. Enemies use more kinds of attacks as the waves go on, and their warning signs are easier to see
 ・Endurance Wave records are counted fresh. Earlier records stay on the board as "Old records (v1)" and "Old records (v2)"
@@ -19,6 +25,12 @@ Update: Nov 25, 2026 (night)
 ・More spells
 ・Choose your wand's look (any wand you hold can take the look of a wand you own or one placed in the world)
 [ko]
+2026-11-25 심야 업데이트
+・내구 Wave(노멀): 적 체력이 늘어나는 방식을 이전 버전(v2)과 같게 되돌렸습니다
+・랭킹 보드와 전송진에서 보스 배틀 항목을 없앴습니다
+・퓨전: 함께 쏘면 되는 시간을 2.5초로 했습니다
+・「여신」의 책 가격을 10,500골드로 했습니다
+
 2026-11-25 밤 업데이트
 ・내구 Wave(노멀・Hard)를 새로 만들었습니다. Wave가 진행될수록 적의 기술이 늘어납니다. 적의 기술 예고도 잘 보이게 했습니다
 ・내구 Wave 기록을 새로 집계합니다(이전 기록은 「이전 기록 (v1)」「이전 기록 (v2)」로 보드에 남아 있습니다)
@@ -39,6 +51,12 @@ Update: Nov 25, 2026 (night)
 ・마법 추가
 ・지팡이 외형 선택(어떤 지팡이를 들어도, 가지고 있는 지팡이나 놓여 있는 지팡이의 외형으로 바꿀 수 있습니다)
 [ja]
+2026-11-25 深夜の更新
+・耐久Wave（普通）の敵の体力の増え方を、前の版（v2）と同じに戻しました
+・ランキングの板と転送陣から、ボスバトルの欄を外しました
+・フュージョンで、一緒に撃てばよい間を 2.5 秒にしました
+・「女神」の書の値段を 10500 ゴールドにしました
+
 2026-11-25 夜の更新
 ・耐久Wave（普通・Hard）を作り直しました。Wave が進むほど、敵の技が増えていきます。敵の技の前ぶれも見やすくしました
 ・耐久Wave の記録を、新しく数え直しました（前の記録は「旧記録（v1）」「旧記録（v2）」として板に残しています）
