@@ -1,5 +1,5 @@
 celecolo-rank 1
-t 1795637735
+t 1795645246
 N	77	Okazaki・楽
 N	77	__zumi
 N	77	Lorzen
@@ -20,7 +20,7 @@ H	66	tazunora
 H	57	ウール105
 H	36	Lorzen
 H	35	白狐の嫁入り
-L	56	ウール105
+L	59	ウール105
 L	54	Okazaki・楽
 L	54	Lorzen
 L	53	＊アルフィン＊
