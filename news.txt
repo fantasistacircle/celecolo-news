@@ -8,7 +8,7 @@ Update: Nov 25, 2026 (night)
 ・At full HP, a single hit no longer knocks you down
 ・Clover is now a 15-second trump card (for 30 seconds afterwards you are out of breath and your MP does not recover)
 ・Flamethrower has been remade
-・Rebalanced Leaf Blade, Gust, Tsunami, Orchestra, Thousand Swords and Time Carve
+・Rebalanced Leaf Blade, Gust, Tsunami, Orchestra, Thousand Swords and Still Rift
 ・Only Heal and Goddess can revive fallen allies now (Auto Heal no longer does)
 ・Fixed: entering Endurance Wave with Clover ON gave no gold or EXP
 ・A notice now appears in front of you when you are short on MP
