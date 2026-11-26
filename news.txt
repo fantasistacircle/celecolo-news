@@ -1,6 +1,6 @@
 [en]
 Update: Nov 26, 2026
-・Fixed: World Ranking "Send record" now sends your current Endurance Wave record
+・Fixed: World Ranking data could not be sent correctly
 ・Fixed: player names on the World Ranking board no longer lose characters
 ・Endurance Hard: you can now choose your starting Wave with a slider (up to 5 below your best)
 ・Love Beam: training at the altar now raises your partner's MP recovery, and the card shows the training mark
@@ -33,7 +33,7 @@ Update: Nov 25, 2026 (late night)
 ・Choose your wand's look (any wand you hold can take the look of a wand you own or one placed in the world)
 [ko]
 2026-11-26 업데이트
-・수정: 월드 랭킹의 "기록 보내기"가 지금 내구 Wave 기록을 보내도록 했습니다
+・수정: 월드 랭킹 데이터를 제대로 보내지 못하던 문제를 고쳤습니다
 ・수정: 월드 랭킹 보드의 이름 글자가 빠지지 않도록 했습니다
 ・내구 Hard: 시작 Wave를 슬라이더로 고를 수 있습니다 (최고 기록 −5까지)
 ・러브 빔: 제단에서 단련하면 상대의 MP 회복이 늘고, 카드에 단련 표시가 나옵니다
@@ -66,7 +66,7 @@ Update: Nov 25, 2026 (late night)
 ・지팡이 외형 선택(어떤 지팡이를 들어도, 가지고 있는 지팡이나 놓여 있는 지팡이의 외형으로 바꿀 수 있습니다)
 [ja]
 2026-11-26 の更新
-・直しました: 世界ランキングの「記録を送る」で、今の耐久Wave の記録が送られるようにしました
+・直しました: 世界ランキングのデータを正しく送れなかった不具合を直しました
 ・直しました: 世界ランキングの板で、名前の字が欠けないようにしました
 ・耐久Hard で、始める Wave をメーターで選べるようにしました（最高記録の 5 つ前まで）
 ・ラブビームを祭壇で鍛錬すると、相手の MP 回復が伸び、札に鍛錬の印が出るようにしました
