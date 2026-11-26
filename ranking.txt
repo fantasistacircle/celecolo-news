@@ -1,5 +1,5 @@
 celecolo-rank 1
-t 1795660451
+t 1795667193
 N	77	Okazaki・楽
 N	77	__zumi
 N	77	Lorzen
@@ -21,8 +21,8 @@ H	58	江山寒Ciallo
 H	57	ウール105
 H	36	Lorzen
 L	59	ウール105
+L	55	Lorzen
 L	54	Okazaki・楽
-L	54	Lorzen
 L	53	＊アルフィン＊
 L	46	Stella_ステラ
 L	38	tazunora
