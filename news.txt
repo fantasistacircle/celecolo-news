@@ -26,21 +26,6 @@ Update: Nov 25, 2026 (late night)
 ・Fusion: you now have 2.5 seconds to fire together
 ・The "Goddess" spellbook now costs 10,500 gold
 
-Update: Nov 25, 2026 (night)
-・Endurance Wave (Normal / Hard) has been rebuilt. Enemies use more kinds of attacks as the waves go on, and their warning signs are easier to see
-・Endurance Wave records are counted fresh. Earlier records stay on the board as "Old records (v1)" and "Old records (v2)"
-・New spells in the shop: "Sea the sky", "Goddess" and "Air Dash"
-・Lumina Burst now grows thicker and stronger the longer you keep firing
-・Repeated casting now slows down little by little (drawing the sigil again resets the speed)
-・At full HP, a single hit no longer knocks you down
-・Clover is now a 15-second trump card (for 30 seconds afterwards you are out of breath and your MP does not recover)
-・Flamethrower has been remade
-・Rebalanced Leaf Blade, Gust, Tsunami, Orchestra, Thousand Swords and Still Rift
-・Only Heal and Goddess can revive fallen allies now (Auto Heal no longer does)
-・Fixed: entering Endurance Wave with Clover ON gave no gold or EXP
-・A notice now appears in front of you when you are short on MP
-・The TAB key now brings out your wand
-・Picking up a wand in the shop now shows its name
 ■Coming soon
 ・Air Dash will be easier to control
 ・Bug fixes and balance adjustments
@@ -74,21 +59,6 @@ Update: Nov 25, 2026 (night)
 ・퓨전: 함께 쏘면 되는 시간을 2.5초로 했습니다
 ・「여신」의 책 가격을 10,500골드로 했습니다
 
-2026-11-25 밤 업데이트
-・내구 Wave(노멀・Hard)를 새로 만들었습니다. Wave가 진행될수록 적의 기술이 늘어납니다. 적의 기술 예고도 잘 보이게 했습니다
-・내구 Wave 기록을 새로 집계합니다(이전 기록은 「이전 기록 (v1)」「이전 기록 (v2)」로 보드에 남아 있습니다)
-・새 마법 「Sea the sky」「여신」「에어 대시」를 상점에 추가했습니다
-・루미나 버스트는 계속 쏠수록 굵고 강해집니다
-・연사는 조금씩 느려집니다(문양을 다시 그리면 원래 속도로 돌아옵니다)
-・HP가 가득 찼을 때는 한 번의 공격으로 쓰러지지 않습니다
-・클로버는 15초짜리 비장의 카드가 되었습니다(효과가 끝난 뒤 30초 동안은 숨이 차서 MP가 회복되지 않습니다)
-・화염 방사를 새로 만들었습니다
-・리프 블레이드・돌풍・쓰나미・오케스트라・천검・각공의 강함을 조정했습니다
-・쓰러진 동료를 일으키는 것은 힐과 여신만 가능합니다(오토 힐로는 일어나지 않습니다)
-・클로버를 ON으로 한 채 내구 Wave에 들어가면 돈과 경험치를 받지 못하던 문제를 고쳤습니다
-・MP가 부족할 때 눈앞에 알림이 나옵니다
-・TAB 키로 지팡이가 나옵니다
-・상점의 지팡이를 손에 들면 지팡이 이름이 나옵니다
 ■업데이트 예정
 ・에어 대시의 조작감을 개선합니다
 ・버그 수정・밸런스 조정 등
@@ -138,62 +108,6 @@ Update: Nov 25, 2026 (night)
 ・TAB キーで杖が出るようにしました
 ・店の杖を手に取ると、杖の名前が出るようにしました
 
-2026-11-24 深夜の更新
-・空を飛んでいる時や対戦中に、転送陣の札が出なくなっていたのを直しました
-・新しい魔法「火炎放射」を店に並べました
-・新しい杖「黄金の杖」を店に並べました（持っている間、もらえるお金 +30%）
-・敵からもらえるお金と経験値を、元の量に戻しました
-・Hard で、敵からお金が入らないことがあったのを直しました
-・精霊の祭壇で、捧げた力が札と同じ色のオーラになるのが分かるようにしました
-・ルミナバーストの消費MPを 9 から 13 にしました
-・設定の帯を、メニューの左側に移しました
-・デスクトップで、ホイールを押してカメラを動かしている間は、フュージョンや飛行で体が動かないようにしました
-・耐久Wave は、Wave 10 を過ぎると敵がだんだん強くなっていきます（体力と攻撃が、Wave ごとに数％ずつ掛け算で上がります。Hard は Wave 8 から）
-・耐久Wave の記録を新しく数え直しました（前の記録は「旧記録（Open Beta）」として板に残しています）
-
-2026-11-24 夜の更新
-・中国語（繁体字）を選べるようになりました
-・新しい魔法「ルミナバースト」を店に並べました
-・倒れて戻ったあと、同じ戦いでお金と経験値が入らなかったのを直しました
-・空を飛んでいても、フュージョンが使えるようになりました
-・敵の技が、空を飛んでいる人にも届くようになりました
-・メニューに「お塩する」と「軽くする（低スペックPC向け）」を足しました
-・オーラは最初から表示するようにしました
-・クローバーは、ステージと広場でだけ出るようにしました
-・竜巻は、ほかの人の竜巻と重なるほど大きく強くなります（説明に書き足しました）
-
-2026-11-24 の更新
-・倒れた仲間に、癒しの魔法がだいたいの向きでも当たって起こせるようになりました
-・新しい魔法「一閃」を店に並べました
-・設定に「オーラを表示」を足しました（最初はオフです）
-・VR で、左下の表示が目の動きについてくるようにしました
-・セーブを消す時は、数字を打って確かめるようにしました
-・ヒトデの模様が描きやすくなりました
-・魔法の説明を、分かりやすく書き直しました
-
-2026-11-23 の更新
-・VRでの動きを直しました（魔法が杖の先や人差し指の先から出るようになりました）
-・マッチングビームを「ラブビーム」に名前を変えました
-・ラブビームとヒールも、連射できるようになりました（もう一度「使う」で止まります）
-・新しい魔法を追加しました（この世界の誰かが知っているのかも……？）
-・人にかけたオートヒールは、満タンになっても止まらず続くようになりました（もう一度かけると止まります）
-・スターレイなどの出し続ける魔法が、20 秒ほどで途中で切れていたのを直しました
-
-2026-11-22 の更新
-・魔法書の値段を、魔法の強さに合わせて見直しました
-・ステージ1クリアで「初級魔法剣」がもらえます
-　（ステージ2からはゴールドです）
-・「メンヘラマッチング」は「マッチングビーム」になりました
-・マッチングビームを撃たれた側は、60秒間 MP の回復が速くなります
-・攻撃の魔法は、すべて連射できるようになりました
-・TABキーでメニューの開け閉めができるようになりました
-・耐久Waveに「Hard」を別のモードとして足しました。最初から手ごわく、周ごとに敵の色や技が変わります。ランキングも別です。（調整中）
-・剣の杖が「千剣」も強くするようになりました
-・マッチングビームを最上級の魔法にしました（効果はそのまま）
-・アイスバレッドとドレミファロンドの威力を上げました
-・刻空の待ち時間をなくしました
-・千剣が自動で攻撃をはじく動きを消しました
-・頭の上の HP の帯を下げて、ネームタグと重ならないようにしました（お砂糖中はハートが帯の中に出ます）
 ■更新予定
 ・エアダッシュの操作性を改善します
 ・不具合修正・バランス調整等
