@@ -1,6 +1,16 @@
 [en]
 Update: Nov 26, 2026
 ・Automatic attacks now hit the training dummy in front of the shop when your wand is pointed toward it (if you stand near the dummy, they hit it as before)
+・Endurance Wave: later waves now give more gold and EXP
+・At the altar you can now undo training and aura one step at a time
+・Removed the level cap
+・Repeated casting now slows down only to half speed at most
+・Thousand Swords now slashes nearby enemies automatically
+・When you are revived, the name of the player who revived you is shown
+・The TAB key can now call back the wand you last left behind
+・Fireballs and Lightning damage numbers are easier to see
+・Fair mode in versus: fixed how Clover works
+・Rearranged the notice boards
 
 Update: Nov 25, 2026 (late night)
 ・Endurance Wave (Normal): enemy HP now grows the same way as the previous version (v2)
@@ -31,6 +41,16 @@ Update: Nov 25, 2026 (night)
 [ko]
 2026-11-26 업데이트
 ・상점 앞의 인형은 지팡이가 인형 쪽을 향했을 때 자동 공격이 맞도록 했습니다(인형 옆에 있으면 지금처럼 맞습니다)
+・내구 Wave에서 뒤의 Wave일수록 받는 돈과 경험치가 늘어나도록 했습니다
+・제단에서 수련과 오라를 하나씩 되돌릴 수 있게 했습니다
+・레벨 상한을 없앴습니다
+・연사로 느려지는 것은 처음 속도의 절반까지로 했습니다
+・천검이 가까운 적을 자동으로 베도록 했습니다
+・일으켜 받았을 때 일으켜 준 사람의 이름이 나오도록 했습니다
+・TAB 키로 두고 온 직전의 지팡이를 불러올 수 있게 했습니다
+・불꽃 구슬과 라이트닝의 숫자를 보기 쉽게 했습니다
+・대전의 공평 모드에서 클로버 처리를 고쳤습니다
+・안내 보드의 배치를 다시 정리했습니다
 
 2026-11-25 심야 업데이트
 ・내구 Wave(노멀): 적 체력이 늘어나는 방식을 이전 버전(v2)과 같게 되돌렸습니다
@@ -61,6 +81,16 @@ Update: Nov 25, 2026 (night)
 [ja]
 2026-11-26 の更新
 ・お店の前の人形は、杖の向き先が人形のほうを向いた時に、自動の攻撃が当たるようにしました（人形のそばにいれば今まで通り当たります）
+・耐久Wave で、先の Wave ほどもらえるお金と経験値が増えるようにしました
+・祭壇で、鍛錬とオーラを 1 つずつ振り直せるようにしました
+・レベルの上限をなくしました
+・連射で遅くなるのは、最初の半分の速さまでにしました
+・千剣が、近くの敵を自動で斬るようにしました
+・起こしてもらった時に、起こしてくれた人の名前が出るようにしました
+・TAB キーで、置いたままの直前の杖を呼び寄せられるようにしました
+・炎の玉とライトニングの数字を見やすくしました
+・対戦の公平モードで、クローバーの扱いを直しました
+・案内の板の置き方を見直しました
 
 2026-11-25 深夜の更新
 ・耐久Wave（普通）の敵の体力の増え方を、前の版（v2）と同じに戻しました
