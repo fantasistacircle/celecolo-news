@@ -5,7 +5,7 @@ Update: Nov 26, 2026
 ・At the altar you can now undo training and aura one step at a time
 ・Removed the level cap
 ・Repeated casting now slows down only to half speed at most
-・Thousand Swords now slashes nearby enemies automatically
+・While Thousand Swords is out, it now slashes nearby enemies automatically, even while you are pressing
 ・When you are revived, the name of the player who revived you is shown
 ・The TAB key can now call back the wand you last left behind
 ・Fireballs and Lightning damage numbers are easier to see
@@ -45,7 +45,7 @@ Update: Nov 25, 2026 (night)
 ・제단에서 수련과 오라를 하나씩 되돌릴 수 있게 했습니다
 ・레벨 상한을 없앴습니다
 ・연사로 느려지는 것은 처음 속도의 절반까지로 했습니다
-・천검이 가까운 적을 자동으로 베도록 했습니다
+・천검을 꺼내 두는 동안에는 누르고 있는 중에도 가까운 적을 자동으로 베도록 했습니다
 ・일으켜 받았을 때 일으켜 준 사람의 이름이 나오도록 했습니다
 ・TAB 키로 두고 온 직전의 지팡이를 불러올 수 있게 했습니다
 ・불꽃 구슬과 라이트닝의 숫자를 보기 쉽게 했습니다
@@ -85,7 +85,7 @@ Update: Nov 25, 2026 (night)
 ・祭壇で、鍛錬とオーラを 1 つずつ振り直せるようにしました
 ・レベルの上限をなくしました
 ・連射で遅くなるのは、最初の半分の速さまでにしました
-・千剣が、近くの敵を自動で斬るようにしました
+・千剣を出している間は、押している最中も、近くの敵を自動で斬るようにしました
 ・起こしてもらった時に、起こしてくれた人の名前が出るようにしました
 ・TAB キーで、置いたままの直前の杖を呼び寄せられるようにしました
 ・炎の玉とライトニングの数字を見やすくしました
