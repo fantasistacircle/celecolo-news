@@ -1,6 +1,6 @@
 [en]
 Update: Nov 26, 2026
-・Fixed: World Ranking data could not be sent correctly
+・Fixed a bug where World Ranking data was not sent correctly
 ・Fixed: player names on the World Ranking board no longer lose characters
 ・Endurance Hard: you can now choose your starting Wave with a slider (up to 5 below your best)
 ・Love Beam: training at the altar now raises your partner's MP recovery, and the card shows the training mark
