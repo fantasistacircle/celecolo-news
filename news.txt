@@ -34,6 +34,9 @@ Update: Nov 25, 2026 (night)
 ・A notice now appears in front of you when you are short on MP
 ・The TAB key now brings out your wand
 ・Picking up a wand in the shop now shows its name
+■Known issue
+・World Ranking "Send record" sends your Endurance Wave record from the previous version, not your current one (will be fixed in the next update)
+
 ■Coming soon
 ・Air Dash will be easier to control
 ・Bug fixes and balance adjustments
@@ -75,6 +78,9 @@ Update: Nov 25, 2026 (night)
 ・MP가 부족할 때 눈앞에 알림이 나옵니다
 ・TAB 키로 지팡이가 나옵니다
 ・상점의 지팡이를 손에 들면 지팡이 이름이 나옵니다
+■알려진 문제
+・세계 랭킹의 「기록 보내기」에서 지금 버전의 내구 Wave 기록이 아니라 이전 버전의 기록이 보내집니다 (다음 업데이트에서 고칩니다)
+
 ■업데이트 예정
 ・에어 대시의 조작감을 개선합니다
 ・버그 수정・밸런스 조정 등
@@ -173,6 +179,9 @@ Update: Nov 25, 2026 (night)
 ・刻空の待ち時間をなくしました
 ・千剣が自動で攻撃をはじく動きを消しました
 ・頭の上の HP の帯を下げて、ネームタグと重ならないようにしました（お砂糖中はハートが帯の中に出ます）
+■わかっている不具合
+・世界ランキングの「記録を送る」で、今の耐久Wave の記録ではなく、前の版の記録が送られてしまいます（次の更新で直します）
+
 ■更新予定
 ・エアダッシュの操作性を改善します
 ・不具合修正・バランス調整等
