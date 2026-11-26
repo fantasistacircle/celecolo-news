@@ -1,5 +1,12 @@
 [en]
 Update: Nov 26, 2026
+・Fixed: World Ranking "Send record" now sends your current Endurance Wave record
+・Fixed: player names on the World Ranking board no longer lose characters
+・Endurance Hard: you can now choose your starting Wave with a slider (up to 5 below your best)
+・Love Beam: training at the altar now raises your partner's MP recovery, and the card shows the training mark
+・Training now also extends Air Dash distance, Clover's effect time, and Goddess's revive range
+・Sea the sky now uses 50% of your current MP (at least 100); the more MP it uses, the stronger it hits (duration stays the same)
+・The altar's "Undo all" button always stays at the bottom right
 ・Automatic attacks now hit the training dummy in front of the shop when your wand is pointed toward it (if you stand near the dummy, they hit it as before)
 ・Endurance Wave: as enemies get stronger, they now give a little more gold and EXP
 ・At the altar you can now undo training and aura one step at a time
@@ -34,9 +41,6 @@ Update: Nov 25, 2026 (night)
 ・A notice now appears in front of you when you are short on MP
 ・The TAB key now brings out your wand
 ・Picking up a wand in the shop now shows its name
-■Known issue
-・World Ranking "Send record" sends your Endurance Wave record from the previous version, not your current one (will be fixed in the next update)
-
 ■Coming soon
 ・Air Dash will be easier to control
 ・Bug fixes and balance adjustments
@@ -44,6 +48,13 @@ Update: Nov 25, 2026 (night)
 ・Choose your wand's look (any wand you hold can take the look of a wand you own or one placed in the world)
 [ko]
 2026-11-26 업데이트
+・수정: 월드 랭킹의 "기록 보내기"가 지금 내구 Wave 기록을 보내도록 했습니다
+・수정: 월드 랭킹 보드의 이름 글자가 빠지지 않도록 했습니다
+・내구 Hard: 시작 Wave를 슬라이더로 고를 수 있습니다 (최고 기록 −5까지)
+・러브 빔: 제단에서 단련하면 상대의 MP 회복이 늘고, 카드에 단련 표시가 나옵니다
+・단련으로 에어 대시 거리, 클로버 효과 시간, 여신의 소생 거리도 늘어납니다
+・Sea the sky는 지금 MP의 50%(최소 100)를 씁니다. 많이 쓸수록 위력이 커집니다 (효과 시간은 그대로)
+・제단의 "전부 되돌리기" 버튼이 항상 오른쪽 아래에 나옵니다
 ・상점 앞의 인형은 지팡이가 인형 쪽을 향했을 때 자동 공격이 맞도록 했습니다(인형 옆에 있으면 지금처럼 맞습니다)
 ・내구 Wave에서 적이 강해질수록 받는 돈과 경험치가 조금씩 늘어나도록 했습니다
 ・제단에서 수련과 오라를 하나씩 되돌릴 수 있게 했습니다
@@ -78,9 +89,6 @@ Update: Nov 25, 2026 (night)
 ・MP가 부족할 때 눈앞에 알림이 나옵니다
 ・TAB 키로 지팡이가 나옵니다
 ・상점의 지팡이를 손에 들면 지팡이 이름이 나옵니다
-■알려진 문제
-・세계 랭킹의 「기록 보내기」에서 지금 버전의 내구 Wave 기록이 아니라 이전 버전의 기록이 보내집니다 (다음 업데이트에서 고칩니다)
-
 ■업데이트 예정
 ・에어 대시의 조작감을 개선합니다
 ・버그 수정・밸런스 조정 등
@@ -88,6 +96,13 @@ Update: Nov 25, 2026 (night)
 ・지팡이 외형 선택(어떤 지팡이를 들어도, 가지고 있는 지팡이나 놓여 있는 지팡이의 외형으로 바꿀 수 있습니다)
 [ja]
 2026-11-26 の更新
+・直しました: 世界ランキングの「記録を送る」で、今の耐久Wave の記録が送られるようにしました
+・直しました: 世界ランキングの板で、名前の字が欠けないようにしました
+・耐久Hard で、始める Wave をメーターで選べるようにしました（最高記録の 5 つ前まで）
+・ラブビームを祭壇で鍛錬すると、相手の MP 回復が伸び、札に鍛錬の印が出るようにしました
+・鍛錬で、エアダッシュの進む距離・クローバーの効果時間・女神の起こせる距離も伸びるようにしました
+・Sea the sky は今の MP の 50%（最低 100）を使い、使うほど威力が上がるようにしました（効果時間は変わりません）
+・祭壇の「全部戻す」が、いつも右下に出るようにしました
 ・お店の前の人形は、杖の向き先が人形のほうを向いた時に、自動の攻撃が当たるようにしました（人形のそばにいれば今まで通り当たります）
 ・耐久Wave で、敵が強くなるほど、もらえるお金と経験値が少しずつ増えるようにしました
 ・祭壇で、鍛錬とオーラを 1 つずつ振り直せるようにしました
@@ -179,9 +194,6 @@ Update: Nov 25, 2026 (night)
 ・刻空の待ち時間をなくしました
 ・千剣が自動で攻撃をはじく動きを消しました
 ・頭の上の HP の帯を下げて、ネームタグと重ならないようにしました（お砂糖中はハートが帯の中に出ます）
-■わかっている不具合
-・世界ランキングの「記録を送る」で、今の耐久Wave の記録ではなく、前の版の記録が送られてしまいます（次の更新で直します）
-
 ■更新予定
 ・エアダッシュの操作性を改善します
 ・不具合修正・バランス調整等
