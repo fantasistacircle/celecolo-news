@@ -41,7 +41,7 @@ Update: Nov 27, 2026
 ・Separate BGM for battle and lobby
 ・Bug fixes and balance adjustments
 ・More spells
-・Choose your wand's look (any wand you hold can take the look of a wand you own or one placed in the world)
+・Choose your wand's look from wands you own or ones placed in the world
 [ko]
 업데이트: 2026년 11월 28일 (2)
 ・상점에 새 마법서: 음표, 눈사람 소환, 드래곤 브레스
