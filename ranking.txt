@@ -1,5 +1,5 @@
 celecolo-rank 1
-t 1795808248
+t 1795814332
 N	162	THEE
 N	162	tazunora
 N	162	aokudrop
@@ -10,16 +10,16 @@ N	129	Stella_ステラ
 N	129	名もなき魔法使い	1
 N	128	circle___
 N	121	糖秋11
+H	110	tazunora
+H	110	名もなき魔法使い	1
+H	106	circle___
 H	103	komatii
 H	103	名もなき魔法使い	1
-H	78	tazunora
 H	78	__zumi
 H	74	名もなき魔法使い	1
 H	74	Syun_821
 H	74	aokudrop
 H	73	＊アルフィン＊
-H	69	circle___
-H	68	白狐の嫁入り
 L	75	名もなき魔法使い	1
 L	65	Einhard660
 L	59	ウール105
@@ -27,6 +27,19 @@ L	55	Lorzen
 L	55	＊アルフィン＊
 L	53	Luna jp
 L	47	Stella_ステラ
+L	45	tazunora
 L	43	guanshin
 L	43	kai_columbina
-L	43	tazunora
+D	575863	tazunora
+D	427749	circle___
+D	157309	名もなき魔法使い	1
+D	20602	mira777
+S	40303	tazunora
+S	19741	名もなき魔法使い	1
+S	16108	circle___
+S	7954	mira777
+R	14095	tazunora
+R	2825	circle___
+A	7613	tazunora
+A	5201	名もなき魔法使い	1
+A	1314	circle___
