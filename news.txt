@@ -1,4 +1,27 @@
 [en]
+Update: Nov 28, 2026
+・Air Dash is now called "Air Slide". Draw the line longer to go farther. You now keep some momentum after the dash
+・The shop now sells "Old Notes" (right of the spellbook shelf). Buy one to read a clue to where a spell is written; you learn the spell there
+・Wands you own now show "Owned" in the shop instead of a price
+・Added a "Support the creator (BOOTH)" board next to the boards in the plaza
+・The Settings window is now split into Performance, Auras, Sky and Other
+・You can choose the sky: Match real time, Morning, Day, Dusk or Night (default: Match real time. The old sky is Dusk)
+・Turn on "Move HP/MP panel" in Settings to grab and move the HP/MP display while the menu is open ("Reset position" puts it back)
+・World Ranking: added Damage, Shield, Healing and Aggro columns
+・Auto Heal now fires like Heal. Hit someone to turn it ON/OFF for them; downed allies are revived with it ON. It uses MP for the HP it heals
+・MP now recovers at 70% speed while Issen or Do-Re-Mi Rondo is out
+・Thunderfall and Tornado now show an aim line and ring (only on your screen)
+・Love Beam now shows an aim line while charging and firing, and hits the person the line points at
+・Sea the sky: the card shows numbers for your current MP, the whale hits farther, and casts by several players no longer erase each other
+・Spell cards are easier to read (power per second, units next to numbers, no small text)
+・Removed the damage cap per hit. Damage numbers no longer stop at 99999
+・Endurance Wave: the results card also shows if you leave by respawning or the Wave ends early
+・Desktop: the magic sword's blade now turns to match the direction of your slash
+・Training dummy: when your wand isn't pointed at it, auto attacks hit it only from closer
+・Endurance Wave: enemy fireballs are easier to see in bright places
+・Fixed: the "Stage 1" title no longer appears when you start Endurance Wave
+・Fixed: the notice board stays where you let go after dragging it
+
 Update: Nov 27, 2026
 ・Altar cards now have +1 / +10 / +All and -1 / -10 / -All buttons (training and aura)
 ・Overlap your tornado with other players' tornadoes and they become one big, stronger tornado
@@ -10,26 +33,34 @@ Update: Nov 27, 2026
 ・Fixed: rows in the Love Beam table no longer shift
 ・Notice board: long text is no longer cut off, and the mouse wheel scrolls 3 lines
 
-Update: Nov 26, 2026
-・Fixed a bug where World Ranking data was not sent correctly
-・Fixed: player names on the World Ranking board no longer lose characters
-・Endurance Hard: you can now choose your starting Wave with a slider (up to 5 below your best)
-・Love Beam: training at the altar now raises your partner's MP recovery, and the card shows the training mark
-・Training now also extends Air Dash distance, Clover's effect time, and Goddess's revive range
-・Sea the sky now uses 50% of your current MP (at least 100); the more MP it uses, the stronger it hits (duration stays the same)
-・The altar's "Undo all" button always stays at the bottom right
-・Automatic attacks now hit the training dummy in front of the shop when your wand is pointed toward it (if you stand near the dummy, they hit it as before)
-・Endurance Wave: as enemies get stronger, they now give a little more gold and EXP
-・At the altar you can now undo training and aura one step at a time
-・Removed the level cap
-・Repeated casting now slows down only to half speed at most
-
 ■Coming soon
-・Air Dash will be easier to control
 ・Bug fixes and balance adjustments
 ・More spells
 ・Choose your wand's look (any wand you hold can take the look of a wand you own or one placed in the world)
 [ko]
+2026-11-28 업데이트
+・에어 대시의 이름을 「에어 슬라이드」로 바꿨습니다. 선을 길게 그릴수록 멀리 갑니다. 달린 뒤에 기세가 남도록 했습니다
+・상점의 마법서 책장 오른쪽에 「위치의 기록」을 놓았습니다. 사면 마법이 새겨진 장소의 단서를 읽을 수 있습니다 (마법은 그 장소에서 배웁니다)
+・상점에서 가지고 있는 지팡이는 가격 대신 「보유 중」으로 나옵니다
+・광장의 보드 옆에 「제작자 후원 (BOOTH)」 보드를 세웠습니다
+・설정 창을 「성능・오라・하늘・기타」로 나눴습니다
+・하늘을 「현실 시간에 맞추기・아침・낮・저녁・밤」에서 고를 수 있습니다 (처음은 「현실 시간에 맞추기」. 지금까지의 하늘은 「저녁」)
+・설정 「HP·MP 위치 조정」을 ON으로 하면, 메뉴를 연 동안 HP·MP 표시를 잡아서 옮길 수 있습니다 (「원래 위치로」로 돌아갑니다)
+・월드 랭킹에 「대미지・실드・회복・어그로」 칸을 더했습니다
+・오토힐을 힐과 같은 연사로 바꿨습니다. 맞힌 사람의 ON/OFF를 바꾸고, 쓰러진 동료는 일으켜서 ON으로 합니다. MP는 치유한 HP만큼 씁니다
+・일섬・도레미파 론도를 꺼내 둔 동안에도 MP가 70% 속도로 회복됩니다
+・낙뢰・회오리에 노리는 곳의 선과 원이 나옵니다 (자기 화면에만)
+・러브 빔도 모으는 동안과 연사하는 동안 노리는 선이 나오고, 선이 가리키는 사람에게 맞습니다
+・Sea the sky: 카드에 지금 MP로 쏠 때의 숫자가 나오고, 고래의 일격이 닿는 범위를 넓혔습니다. 여러 명이 쏴도 그림이 서로 지워지지 않습니다
+・마법 카드의 숫자를 보기 쉽게 했습니다 (초당 위력 줄・단위를 숫자 옆에・작은 글자 없애기 등)
+・1회 대미지의 상한을 없앴습니다. 대미지 숫자도 99999에서 멈추지 않습니다
+・내구 Wave: 도중에 리스폰으로 빠졌을 때나 Wave가 도중에 끝났을 때도 결과 카드가 나옵니다
+・데스크톱: 마법검을 휘두르면 칼날의 방향이 베는 방향에 맞춰집니다
+・상점 앞의 인형: 지팡이를 향하지 않을 때 자동 공격이 맞는 거리를 짧게 했습니다
+・내구 Wave: 적의 불덩이가 밝은 곳에서도 잘 보이게 했습니다
+・수정: 내구 Wave를 시작할 때 「스테이지 1」 제목이 나오는 문제를 고쳤습니다
+・수정: 안내 보드를 잡아서 옮기면 놓은 곳에서 멈춥니다
+
 2026-11-27 업데이트
 ・제단 카드에 +1・+10・+전부 / −1・−10・−전부 버튼을 달았습니다 (수련・오라 모두)
 ・다른 사람의 토네이도와 겹치면 하나의 큰 토네이도가 되어 강해집니다
@@ -41,26 +72,34 @@ Update: Nov 26, 2026
 ・수정: 러브 빔 표의 줄이 어긋나는 문제를 고쳤습니다
 ・안내 보드: 긴 글이 잘리지 않고, 마우스 휠로 3줄씩 움직입니다
 
-2026-11-26 업데이트
-・수정: 월드 랭킹 데이터를 제대로 보내지 못하던 문제를 고쳤습니다
-・수정: 월드 랭킹 보드의 이름 글자가 빠지지 않도록 했습니다
-・내구 Hard: 시작 Wave를 슬라이더로 고를 수 있습니다 (최고 기록 −5까지)
-・러브 빔: 제단에서 단련하면 상대의 MP 회복이 늘고, 카드에 단련 표시가 나옵니다
-・단련으로 에어 대시 거리, 클로버 효과 시간, 여신의 소생 거리도 늘어납니다
-・Sea the sky는 지금 MP의 50%(최소 100)를 씁니다. 많이 쓸수록 위력이 커집니다 (효과 시간은 그대로)
-・제단의 "전부 되돌리기" 버튼이 항상 오른쪽 아래에 나옵니다
-・상점 앞의 인형은 지팡이가 인형 쪽을 향했을 때 자동 공격이 맞도록 했습니다(인형 옆에 있으면 지금처럼 맞습니다)
-・내구 Wave에서 적이 강해질수록 받는 돈과 경험치가 조금씩 늘어나도록 했습니다
-・제단에서 수련과 오라를 하나씩 되돌릴 수 있게 했습니다
-・레벨 상한을 없앴습니다
-・연사로 느려지는 것은 처음 속도의 절반까지로 했습니다
-
 ■업데이트 예정
-・에어 대시의 조작감을 개선합니다
 ・버그 수정・밸런스 조정 등
 ・마법 추가
 ・지팡이 외형 선택(어떤 지팡이를 들어도, 가지고 있는 지팡이나 놓여 있는 지팡이의 외형으로 바꿀 수 있습니다)
 [ja]
+2026-11-28 の更新
+・エアダッシュの名前を「エアスライド」に変えました。横線を長く描くほど遠くへ進みます。駆け抜けた後に勢いが残るようにしました
+・お店の魔法書の棚の右に「ありかの書き付け」を並べました。買うと、魔法が記された場所の手がかりが読めます（魔法はその場所で覚えます）
+・お店で、持っている杖は値札の代わりに「所持済み」と出るようにしました
+・広場の板の並びに「作者への支援（BOOTH）」の板を置きました
+・設定の窓を「動作の軽さ・オーラ・空・その他」に分けました
+・空を「現実の時間で変わる・朝・昼・夕・夜」から選べるようにしました（はじめは「現実の時間で変わる」。今までの空は「夕」です）
+・設定「HP・MPの位置調整」を ON にすると、メニューを開いている間、HP・MP の表示をつかんで動かせます（「元の位置に戻す」で戻ります）
+・世界ランキングに「ダメージ・シールド・回復・ヘイト」の欄を足しました
+・オートヒールをヒールと同じ連射にしました。当てた人の ON/OFF を切り替え、倒れた人は起こして ON にします。MP は癒した HP の分だけ使います
+・一閃・ドレミファロンドを出している間も、MP が 7 割の速さで戻るようにしました
+・落雷・竜巻に、狙う所の線と輪が出るようにしました（自分の画面だけ）
+・ラブビームにも、溜めと連射の間に狙いの線が出るようにしました。線が指す人に当たります
+・Sea the sky: 札に今の MP で撃った時の数が出るようにし、鯨の一撃が届く範囲を広げました。何人かで撃っても絵が消し合わないようにしました
+・魔法の札の数字を見やすくしました（毎秒の威力の行・単位を数の横に・小さい字を外す など）
+・1 回のダメージの上限を外しました。ダメージの数も 99999 で止まらないようにしました
+・耐久Wave: 途中でリスポーンして抜けた時や、Wave が途中で終わった時にも、結果の札が出るようにしました
+・デスクトップ: 魔法剣を振ると、刃の向きが斬る向きに合うようにしました
+・お店の前の人形: 杖を向けていない時に自動の攻撃が当たる距離を短くしました
+・耐久Wave: 敵の炎の玉を、明るい所でも見やすくしました
+・直しました: 耐久Wave を始めた時に「ステージ1」の題が出てしまう不具合を直しました
+・直しました: お知らせの板をつかんで動かした時、離した所で止まるようにしました
+
 2026-11-27 の更新
 ・祭壇の札に ＋1・＋10・＋全部／−1・−10・−全部 のボタンを付けました（鍛錬もオーラも）
 ・ほかの人の竜巻と重ねると、1 本の大竜巻になり強まるようにしました
@@ -72,22 +111,7 @@ Update: Nov 26, 2026
 ・直しました: ラブビームの表で行がずれる不具合を直しました
 ・お知らせの板: 長い文が切れないようにし、マウスのホイールで 3 行ずつ動くようにしました
 
-2026-11-26 の更新
-・直しました: 世界ランキングのデータを正しく送れなかった不具合を直しました
-・直しました: 世界ランキングの板で、名前の字が欠けないようにしました
-・耐久Hard で、始める Wave をメーターで選べるようにしました（最高記録の 5 つ前まで）
-・ラブビームを祭壇で鍛錬すると、相手の MP 回復が伸び、札に鍛錬の印が出るようにしました
-・鍛錬で、エアダッシュの進む距離・クローバーの効果時間・女神の起こせる距離も伸びるようにしました
-・Sea the sky は今の MP の 50%（最低 100）を使い、使うほど威力が上がるようにしました（効果時間は変わりません）
-・祭壇の「全部戻す」が、いつも右下に出るようにしました
-・お店の前の人形は、杖の向き先が人形のほうを向いた時に、自動の攻撃が当たるようにしました（人形のそばにいれば今まで通り当たります）
-・耐久Wave で、敵が強くなるほど、もらえるお金と経験値が少しずつ増えるようにしました
-・祭壇で、鍛錬とオーラを 1 つずつ振り直せるようにしました
-・レベルの上限をなくしました
-・連射で遅くなるのは、最初の半分の速さまでにしました
-
 ■更新予定
-・エアダッシュの操作性を改善します
 ・不具合修正・バランス調整等
 ・魔法の追加
 ・杖の見た目を選べるように（どの杖を持っても、持っている杖や置いてある杖の見た目に変えられます）
