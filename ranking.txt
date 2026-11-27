@@ -1,5 +1,5 @@
 celecolo-rank 1
-t 1795814332
+t 1795818165
 N	162	THEE
 N	162	tazunora
 N	162	aokudrop
@@ -34,6 +34,7 @@ D	575863	tazunora
 D	427749	circle___
 D	157309	名もなき魔法使い	1
 D	20602	mira777
+D	3238	名もなき魔法使い	1
 S	40303	tazunora
 S	19741	名もなき魔法使い	1
 S	16108	circle___
@@ -43,3 +44,4 @@ R	2825	circle___
 A	7613	tazunora
 A	5201	名もなき魔法使い	1
 A	1314	circle___
+A	35	名もなき魔法使い	1
