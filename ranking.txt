@@ -1,11 +1,11 @@
 celecolo-rank 1
-t 1795797566
+t 1795800956
 N	162	THEE
 N	162	tazunora
 N	162	aokudrop
+N	162	名もなき魔法使い	1
 N	161	白狐の嫁入り
 N	150	＊アルフィン＊
-N	130	名もなき魔法使い	1
 N	129	Stella_ステラ
 N	129	名もなき魔法使い	1
 N	128	circle___
