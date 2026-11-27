@@ -2,7 +2,7 @@
 Update: Nov 27, 2026
 ・Altar cards now have +1 / +10 / +All and -1 / -10 / -All buttons (training and aura)
 ・Overlap your tornado with other players' tornadoes and they become one big, stronger tornado
-・Added a "#VRCセレマジ" sign above the World Ranking board in the plaza
+・Added a "#魔法を描いて遊べる" sign above the World Ranking board in the plaza
 ・The altar's Love Beam card now reads "Partner's MP recovery" and shows its boost as "×1.30"
 ・Sea the sky's book now says "50% of your MP (at least 100)"
 ・Book cards show the MP of hold-to-fire spells per second
@@ -33,7 +33,7 @@ Update: Nov 26, 2026
 2026-11-27 업데이트
 ・제단 카드에 +1・+10・+전부 / −1・−10・−전부 버튼을 달았습니다 (수련・오라 모두)
 ・다른 사람의 토네이도와 겹치면 하나의 큰 토네이도가 되어 강해집니다
-・광장의 월드 랭킹 보드 위에 「#VRCセレマジ」 간판을 세웠습니다
+・광장의 월드 랭킹 보드 위에 「#魔法を描いて遊べる」 간판을 세웠습니다
 ・제단의 러브 빔 카드를 「상대의 MP 회복」으로 바꾸고, 늘어난 정도를 「×1.30」처럼 배수로 보여 줍니다
 ・Sea the sky 책의 설명을 「보유 MP의 50%(최소 100)」로 고쳤습니다
 ・책 카드에서 누르는 동안 계속 쏘는 마법의 MP를 초당으로 보여 줍니다
@@ -64,7 +64,7 @@ Update: Nov 26, 2026
 2026-11-27 の更新
 ・祭壇の札に ＋1・＋10・＋全部／−1・−10・−全部 のボタンを付けました（鍛錬もオーラも）
 ・ほかの人の竜巻と重ねると、1 本の大竜巻になり強まるようにしました
-・広場の世界ランキングの板の上に「#VRCセレマジ」の看板を置きました
+・広場の世界ランキングの板の上に「#魔法を描いて遊べる」の看板を置きました
 ・祭壇のラブビームの札を「相手のMP回復」にし、伸びを「×1.30」のように倍で出すようにしました
 ・Sea the sky の書の説明を「所持MPの50%（最低100）」に直しました
 ・書の札で、押している間ずっと撃つ魔法の MP を毎秒で出すようにしました
