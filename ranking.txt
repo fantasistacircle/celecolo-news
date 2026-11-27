@@ -1,6 +1,7 @@
 celecolo-rank 1
-t 1795754743
+t 1795758185
 N	150	tazunora
+N	129	Stella_ステラ
 N	128	circle___
 N	105	aokudrop
 N	101	Einhard660
@@ -9,7 +10,6 @@ N	100	YukiNeko`
 N	100	喵喵~Nekochi
 N	93	__zumi
 N	90	あすここ
-N	88	江山寒Ciallo
 H	103	komatii
 H	103	名もなき魔法使い	1
 H	78	tazunora
@@ -26,7 +26,7 @@ L	59	ウール105
 L	55	Lorzen
 L	53	＊アルフィン＊
 L	53	Luna jp
-L	46	Stella_ステラ
+L	47	Stella_ステラ
 L	43	guanshin
 L	39	tazunora
 L	39	名もなき魔法使い	1
