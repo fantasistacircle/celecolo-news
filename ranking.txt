@@ -1,7 +1,8 @@
 celecolo-rank 1
-t 1795779608
+t 1795789404
+N	161	白狐の嫁入り
 N	150	tazunora
-N	140	白狐の嫁入り
+N	150	＊アルフィン＊
 N	130	名もなき魔法使い	1
 N	129	Stella_ステラ
 N	129	名もなき魔法使い	1
@@ -9,7 +10,6 @@ N	128	circle___
 N	120	あすここ
 N	120	CP0 ルッチ
 N	116	Abobus_2014
-N	105	aokudrop
 H	103	komatii
 H	103	名もなき魔法使い	1
 H	78	tazunora
@@ -24,7 +24,7 @@ L	75	名もなき魔法使い	1
 L	65	Einhard660
 L	59	ウール105
 L	55	Lorzen
-L	53	＊アルフィン＊
+L	55	＊アルフィン＊
 L	53	Luna jp
 L	47	Stella_ステラ
 L	43	guanshin
