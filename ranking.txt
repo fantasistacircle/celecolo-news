@@ -1,5 +1,5 @@
 celecolo-rank 1
-t 1795861094
+t 1795864339
 N	162	THEE
 N	162	tazunora
 N	162	aokudrop
@@ -28,8 +28,8 @@ L	55	Lorzen
 L	55	＊アルフィン＊
 L	53	Luna jp
 L	52	安室はると
-L	50	Stella_ステラ
-L	45	tazunora
+L	51	Stella_ステラ
+L	46	LonelyGilly
 D	999999	LonelyGilly
 D	999999	面包狗狗੭
 D	999999	circle___
@@ -37,9 +37,9 @@ D	999999	神威_H1majin
 D	999999	私は水の中です
 D	999999	sakuto251
 D	999999	ウール105
+D	999999	名もなき魔法使い	1
 D	912723	__zumi
 D	910845	mukibutu
-D	896276	NightarkShiny
 S	101380	sakuto251
 S	44129	私は水の中です
 S	40303	tazunora
@@ -57,9 +57,9 @@ R	11950	mukibutu
 R	10231	神威_H1majin
 R	9076	私は水の中です
 R	8497	KuroNeko09
+R	6688	LonelyGilly
+R	6611	夏咲 咏
 R	6477	ウール105
-R	5274	-ぱんにゃ-
-R	4352	白昼夢_はく
 A	43882	sakuto251
 A	41401	私は水の中です
 A	32735	神威_H1majin
@@ -69,7 +69,7 @@ A	17132	__zumi
 A	14956	gabi。
 A	12298	-ぱんにゃ-
 A	10182	面包狗狗੭
-A	8522	LonelyGilly
+A	8957	LonelyGilly
 d	999999	LonelyGilly
 d	999999	面包狗狗੭
 d	999999	circle___
@@ -77,9 +77,9 @@ d	999999	神威_H1majin
 d	999999	私は水の中です
 d	999999	sakuto251
 d	999999	ウール105
+d	999999	名もなき魔法使い	1
 d	912723	__zumi
 d	910845	mukibutu
-d	896276	NightarkShiny
 s	101380	sakuto251
 s	44129	私は水の中です
 s	40303	tazunora
@@ -97,9 +97,9 @@ r	11950	mukibutu
 r	10231	神威_H1majin
 r	9076	私は水の中です
 r	8497	KuroNeko09
+r	6688	LonelyGilly
+r	6611	夏咲 咏
 r	6477	ウール105
-r	5274	-ぱんにゃ-
-r	4352	白昼夢_はく
 a	43882	sakuto251
 a	41401	私は水の中です
 a	32735	神威_H1majin
@@ -109,4 +109,4 @@ a	17132	__zumi
 a	14956	gabi。
 a	12298	-ぱんにゃ-
 a	10182	面包狗狗੭
-a	8522	LonelyGilly
+a	8957	LonelyGilly
