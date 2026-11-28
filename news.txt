@@ -9,7 +9,7 @@ Update: Nov 28, 2026 (2)
 
 Update: Nov 28, 2026
 ・Air Dash is now called "Air Slide". Draw the line longer to go farther. You now keep some momentum after the dash
-・The shop now sells "Old Notes" (right of the spellbook shelf). Buy one to read a clue to where a spell is written; you learn the spell there
+・The shop now sells "Old Notes" (right of the spellbook shelf): clues to where spells are written
 ・Wands you own now show "Owned" in the shop instead of a price
 ・Added a "Support the creator (BOOTH)" board next to the boards in the plaza
 ・The Settings window is now split into Performance, Auras, Sky and Other
@@ -20,7 +20,7 @@ Update: Nov 28, 2026
 ・MP now recovers at 70% speed while Issen or Do-Re-Mi Rondo is out
 ・Thunderfall and Tornado now show an aim line and ring (only on your screen)
 ・Love Beam now shows an aim line while charging and firing, and hits the person the line points at
-・Sea the sky: the card shows numbers for your current MP, the whale hits farther, and casts by several players no longer erase each other
+・Sea the sky: card numbers match your MP, the whale hits farther, and casts no longer erase each other
 ・Removed the damage cap per hit. Damage numbers no longer stop at 99999
 ・Endurance Wave: enemy fireballs are easier to see in bright places
 ・Fixed: the "Stage 1" title no longer appears when you start Endurance Wave
@@ -39,7 +39,9 @@ Update: Nov 27, 2026
 
 ■Coming soon
 ・Big rework of enemy strength and Wave mode difficulty (fun)
-・Set battle and lobby BGM separately
+・Set battle and lobby BGM separately, also from the menu
+・Snowman MP regen reaches all allies
+・Stacked tornadoes: 2x, 4x, 8x power
 ・Bug fixes and balance adjustments
 ・More spells
 ・Choose your wand's look from wands you own or ones placed in the world
@@ -89,6 +91,9 @@ Update: Nov 27, 2026
 ■업데이트 예정
 ・적의 강함, 각 Wave 모드의 난이도(재미)를 만드는 방식의 대조정
 ・전투 중 BGM과 로비 BGM을 따로 설정할 수 있게
+・메뉴에서도 BGM을 고를 수 있게
+・눈사람의 MP 회복이 동료 모두에게 닿도록
+・회오리를 겹칠수록 위력이 2배, 4배, 8배로 커지도록
 ・버그 수정・밸런스 조정 등
 ・마법 추가
 ・지팡이 외형 선택(어떤 지팡이를 들어도, 가지고 있는 지팡이나 놓여 있는 지팡이의 외형으로 바꿀 수 있습니다)
@@ -138,6 +143,9 @@ Update: Nov 27, 2026
 ■更新予定
 ・敵の強さ、各Waveモードの難しさ（楽しさ）の作り方の大調整
 ・戦闘中の BGM とロビーの BGM を別々に設定できるように
+・メニューからも BGM を選べるように
+・雪だるまの MP 回復が、仲間全員に届くように
+・竜巻を重ねるほど、威力が 2 倍、4 倍、8 倍と伸びるように
 ・不具合修正・バランス調整等
 ・魔法の追加
 ・杖の見た目を選べるように（どの杖を持っても、持っている杖や置いてある杖の見た目に変えられます）
