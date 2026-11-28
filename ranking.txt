@@ -1,5 +1,5 @@
 celecolo-rank 1
-t 1795867097
+t 1795869997
 N	162	THEE
 N	162	tazunora
 N	162	aokudrop
@@ -23,13 +23,13 @@ H	90	NightarkShiny
 L	86	名もなき魔法使い	1
 L	78	NightarkShiny
 L	65	Einhard660
-L	61	ウール105
+L	63	ウール105
 L	55	Lorzen
 L	55	＊アルフィン＊
 L	53	Luna jp
 L	52	安室はると
+L	52	LonelyGilly
 L	51	Stella_ステラ
-L	48	名もなき魔法使い	1
 D	999999	LonelyGilly
 D	999999	面包狗狗੭
 D	999999	circle___
@@ -39,26 +39,26 @@ D	999999	sakuto251
 D	999999	ウール105
 D	999999	_ʚめろんかぷちーのɞ_
 D	999999	Ppq94
-D	912723	__zumi
+D	999999	__zumi
 S	101380	sakuto251
 S	46505	私は水の中です
 S	40303	tazunora
 S	38220	ウール105
 S	35115	一只啥猫
+S	32472	Ppq94
 S	32173	mukibutu
 S	30187	神威_H1majin
 S	28442	__zumi
-S	25420	名もなき魔法使い	1
-S	23343	NightarkShiny
+S	27207	LonelyGilly
 R	68388	名もなき魔法使い	1
+R	38103	circle___
+R	35278	LonelyGilly
 R	32747	一只啥猫
-R	30283	circle___
-R	17842	LonelyGilly
-R	16377	Ppq94
+R	17318	Ppq94
 R	14095	tazunora
 R	11950	mukibutu
+R	11714	__zumi
 R	10231	神威_H1majin
-R	9135	__zumi
 R	9076	私は水の中です
 A	43882	sakuto251
 A	41401	私は水の中です
@@ -79,26 +79,26 @@ d	999999	sakuto251
 d	999999	ウール105
 d	999999	_ʚめろんかぷちーのɞ_
 d	999999	Ppq94
-d	912723	__zumi
+d	999999	__zumi
 s	101380	sakuto251
 s	46505	私は水の中です
 s	40303	tazunora
 s	38220	ウール105
 s	35115	一只啥猫
+s	32472	Ppq94
 s	32173	mukibutu
 s	30187	神威_H1majin
 s	28442	__zumi
-s	25420	名もなき魔法使い	1
-s	23343	NightarkShiny
+s	27207	LonelyGilly
 r	68388	名もなき魔法使い	1
+r	38103	circle___
+r	35278	LonelyGilly
 r	32747	一只啥猫
-r	30283	circle___
-r	17842	LonelyGilly
-r	16377	Ppq94
+r	17318	Ppq94
 r	14095	tazunora
 r	11950	mukibutu
+r	11714	__zumi
 r	10231	神威_H1majin
-r	9135	__zumi
 r	9076	私は水の中です
 a	43882	sakuto251
 a	41401	私は水の中です
