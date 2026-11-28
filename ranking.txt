@@ -1,5 +1,5 @@
 celecolo-rank 1
-t 1795843306
+t 1795847011
 N	162	THEE
 N	162	tazunora
 N	162	aokudrop
@@ -20,14 +20,14 @@ H	90	NightarkShiny
 H	78	__zumi
 H	74	名もなき魔法使い	1
 H	74	Syun_821
+L	86	名もなき魔法使い	1
 L	78	NightarkShiny
-L	75	名もなき魔法使い	1
 L	65	Einhard660
 L	59	ウール105
 L	55	Lorzen
 L	55	＊アルフィン＊
 L	53	Luna jp
-L	51	安室はると
+L	52	安室はると
 L	47	Stella_ステラ
 L	45	tazunora
 D	999999	LonelyGilly
@@ -52,6 +52,7 @@ S	5246	KuroNeko09
 S	4390	LonelyGilly
 R	14095	tazunora
 R	8497	KuroNeko09
+R	4352	白昼夢_はく
 R	2825	circle___
 R	2279	gabi。
 R	1227	どりりん
@@ -59,14 +60,13 @@ R	802	安室はると
 R	678	CP0 ルッチ
 R	626	˚-Hyacinth芳瑀໒3
 R	596	面包狗狗੭
-R	382	itsuki1224
 A	14956	gabi。
 A	10182	面包狗狗੭
 A	8522	LonelyGilly
 A	7613	tazunora
 A	6447	どりりん
+A	5705	白昼夢_はく
 A	5497	安室はると
 A	5201	名もなき魔法使い	1
 A	2325	KuroNeko09
 A	2278	itsuki1224
-A	1920	CP0 ルッチ
