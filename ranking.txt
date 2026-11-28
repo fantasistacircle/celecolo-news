@@ -1,5 +1,5 @@
 celecolo-rank 1
-t 1795838791
+t 1795843306
 N	162	THEE
 N	162	tazunora
 N	162	aokudrop
@@ -15,54 +15,58 @@ H	110	名もなき魔法使い	1
 H	106	circle___
 H	103	komatii
 H	103	LonelyGilly
+H	103	安室はると
+H	90	NightarkShiny
 H	78	__zumi
 H	74	名もなき魔法使い	1
 H	74	Syun_821
-H	74	aokudrop
-H	73	＊アルフィン＊
+L	78	NightarkShiny
 L	75	名もなき魔法使い	1
 L	65	Einhard660
 L	59	ウール105
 L	55	Lorzen
 L	55	＊アルフィン＊
 L	53	Luna jp
+L	51	安室はると
 L	47	Stella_ステラ
 L	45	tazunora
-L	45	LonelyGilly
-L	43	guanshin
 D	999999	LonelyGilly
 D	999999	面包狗狗੭
+D	896276	NightarkShiny
 D	575863	tazunora
 D	427749	circle___
 D	157309	名もなき魔法使い	1
 D	113971	CP0 ルッチ
 D	71189	KuroNeko09
+D	65876	gabi。
 D	43170	itsuki1224
-D	20602	mira777
-D	17428	mira165987
 S	40303	tazunora
+S	23343	NightarkShiny
 S	22230	mira777
 S	19741	名もなき魔法使い	1
 S	16108	circle___
+S	10653	gabi。
 S	8247	itsuki1224
 S	7935	面包狗狗੭
 S	5246	KuroNeko09
 S	4390	LonelyGilly
-S	3375	˚-Hyacinth芳瑀໒3
-S	3221	mira165987
 R	14095	tazunora
 R	8497	KuroNeko09
 R	2825	circle___
+R	2279	gabi。
+R	1227	どりりん
+R	802	安室はると
 R	678	CP0 ルッチ
 R	626	˚-Hyacinth芳瑀໒3
 R	596	面包狗狗੭
 R	382	itsuki1224
+A	14956	gabi。
 A	10182	面包狗狗੭
 A	8522	LonelyGilly
 A	7613	tazunora
+A	6447	どりりん
+A	5497	安室はると
 A	5201	名もなき魔法使い	1
 A	2325	KuroNeko09
 A	2278	itsuki1224
 A	1920	CP0 ルッチ
-A	1314	circle___
-A	1087	˚-Hyacinth芳瑀໒3
