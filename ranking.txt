@@ -1,5 +1,5 @@
 celecolo-rank 1
-t 1795819997
+t 1795824340
 N	162	THEE
 N	162	tazunora
 N	162	aokudrop
@@ -33,21 +33,30 @@ L	43	kai_columbina
 D	575863	tazunora
 D	427749	circle___
 D	157309	名もなき魔法使い	1
+D	71189	KuroNeko09
 D	20602	mira777
-D	4758	˚-Hyacinth芳瑀໒3
-D	3238	名もなき魔法使い	1
-D	476	Wíllíam
+D	16749	名もなき魔法使い	1
+D	9211	˚-Hyacinth芳瑀໒3
+D	3456	itsuki1224
+D	2017	ゆーさんっ！
+D	820	よるみあ
 S	40303	tazunora
+S	22230	mira777
 S	19741	名もなき魔法使い	1
 S	16108	circle___
-S	7954	mira777
+S	5960	itsuki1224
+S	5246	KuroNeko09
 S	3375	˚-Hyacinth芳瑀໒3
+S	1336	名もなき魔法使い	1
+S	741	ゆーさんっ！
 S	406	Wíllíam
 R	14095	tazunora
+R	8497	KuroNeko09
 R	2825	circle___
 R	626	˚-Hyacinth芳瑀໒3
 A	7613	tazunora
 A	5201	名もなき魔法使い	1
+A	2325	KuroNeko09
 A	1314	circle___
+A	1144	名もなき魔法使い	1
 A	1087	˚-Hyacinth芳瑀໒3
-A	35	名もなき魔法使い	1
