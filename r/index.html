@@ -81,7 +81,7 @@
     <form id="f" autocomplete="off">
       <p class="ready-note" data-t="ready"></p>
       <label for="code" data-t="codeLabel"></label>
-      <input id="code" name="code" inputmode="text" autocapitalize="characters" autocorrect="off" spellcheck="false" maxlength="38" placeholder="XXXX-XXXX-XXXX-XX"><!-- 【混ぜる印・wr-lv】14 字（Lv つき）。前の 12 字も通る -->
+      <input id="code" name="code" inputmode="text" autocapitalize="characters" autocorrect="off" spellcheck="false" maxlength="68" placeholder="XXXX-XXXX-XXXX-XX"><!-- 【混ぜる印・wr-lv】14 字（Lv つき）。前の 12 字も通る -->
       <p class="hint" data-t="codeHint"></p>
       <label for="name" data-t="nameLabel"></label>
       <input id="name" name="name" autocapitalize="off" autocorrect="off" spellcheck="false" maxlength="32">
@@ -182,7 +182,7 @@ async function load() {
 }
 const codeIn = document.getElementById("code");
 codeIn.addEventListener("input", () => {
-  const raw = codeIn.value.toUpperCase().replace(/[^0-9A-Z]/g, "").slice(0, 30); // 【混ぜる印・rank-more】30 字（役割つき）まで
+  const raw = codeIn.value.toUpperCase().replace(/[^0-9A-Z]/g, "").slice(0, 54); // 【混ぜる印・rank-more】30 字（役割つき）まで【混ぜる印・no-cap-1128】54 字（上限なしの形）まで
   const f = raw.replace(/(.{4})(?=.)/g, "$1-");
   if (f !== codeIn.value) codeIn.value = f;
 });
@@ -193,7 +193,7 @@ const hideIn = document.getElementById("hide"); // 【混ぜる印・hide-name�
 try { hideIn.checked = localStorage.getItem("wr_hide") === "1"; } catch (e) {}
 let hideTouched = false; // 印を外した時だけ「出す」を送る（触っていない空の印は「前のまま」= ワールドや別の端末で伏せた人を出してしまわない）
 hideIn.addEventListener("change", () => { hideTouched = true; });
-const okLen = (c) => { const k = c.replace(/[^0-9A-Za-z]/g, "").length; return k === 12 || k === 14 || k === 30; }; // 【混ぜる印・rank-more】30 字 // 【混ぜる印・wr-lv】14 字（Lv つき）と前の 12 字
+const okLen = (c) => { const k = c.replace(/[^0-9A-Za-z]/g, "").length; return k === 12 || k === 14 || k === 30 || k === 54; }; // 【混ぜる印・no-cap-1128】54 字 // 【混ぜる印・rank-more】30 字 // 【混ぜる印・wr-lv】14 字（Lv つき）と前の 12 字
 // ワールドの QR（?c=コード&n=名前）で開いた時は、押すだけで送れる形に（欄は残すので打ち直しもできる）
 if (qName && okLen(codeIn.value)) document.getElementById("f").classList.add("ready");
 document.getElementById("f").addEventListener("submit", async (ev) => {
