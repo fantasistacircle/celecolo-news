@@ -4,8 +4,8 @@ Update: Nov 28, 2026 (2)
 ・Endurance Wave: each Wave you clear now gives GOLD and EXP (more in Hard). Players who are down at that moment get none
 ・World Ranking: you can now turn on sending your results automatically
 ・The BOOTH link on the support board can now be selected and copied
-・The vertical-line spell that calls your wand now works more reliably
-・Dragon Breath and Sea the sky cards show MP cost more clearly
+・The wand-calling line spell now works more reliably
+・Dragon Breath and Sea the sky cards show MP cost clearly
 
 Update: Nov 28, 2026
 ・Air Dash is now called "Air Slide". Draw the line longer to go farther. You now keep some momentum after the dash
@@ -24,7 +24,7 @@ Update: Nov 28, 2026
 ・Removed the damage cap per hit. Damage numbers no longer stop at 99999
 ・Endurance Wave: enemy fireballs are easier to see in bright places
 ・Fixed: the "Stage 1" title no longer appears when you start Endurance Wave
-・Fixed: the notice board stays where you let go after dragging it
+・Fixed: the notice board stays where you drop it
 
 Update: Nov 27, 2026
 ・Altar cards now have +1 / +10 / +All and -1 / -10 / -All buttons (training and aura)
@@ -42,6 +42,7 @@ Update: Nov 27, 2026
 ・Set battle and lobby BGM separately, also from the menu
 ・Snowman MP regen reaches all allies
 ・Stacked tornadoes: 2x, 4x, 8x power
+・A "Lightest graphics" setting
 ・Bug fixes and balance adjustments
 ・More spells
 ・Choose your wand's look from wands you own or ones placed in the world
@@ -94,6 +95,7 @@ Update: Nov 27, 2026
 ・메뉴에서도 BGM을 고를 수 있게
 ・눈사람의 MP 회복이 동료 모두에게 닿도록
 ・회오리를 겹칠수록 위력이 2배, 4배, 8배로 커지도록
+・「가장 가볍게 하기」 설정 추가
 ・버그 수정・밸런스 조정 등
 ・마법 추가
 ・지팡이 외형 선택(어떤 지팡이를 들어도, 가지고 있는 지팡이나 놓여 있는 지팡이의 외형으로 바꿀 수 있습니다)
@@ -146,6 +148,7 @@ Update: Nov 27, 2026
 ・メニューからも BGM を選べるように
 ・雪だるまの MP 回復が、仲間全員に届くように
 ・竜巻を重ねるほど、威力が 2 倍、4 倍、8 倍と伸びるように
+・「いちばん軽くする」設定の追加
 ・不具合修正・バランス調整等
 ・魔法の追加
 ・杖の見た目を選べるように（どの杖を持っても、持っている杖や置いてある杖の見た目に変えられます）
